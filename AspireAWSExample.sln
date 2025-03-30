@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireAWSExample.AppHost", "AspireAWSExample.AppHost\AspireAWSExample.AppHost.csproj", "{3F7F5818-12F1-4AA4-9394-B79883AA3CC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AspireAWSExample.ToUpperLambdaFunction", "AspireAWSExample.ToUpperLambdaFunction", "{C871BBF7-F4BB-411A-8545-73A5A547D2C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{677AD883-4173-4C84-98BF-936E84570318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireAWSExample.ToUpperLambdaFunction", "AspireAWSExample.ToUpperLambdaFunction\src\AspireAWSExample.ToUpperLambdaFunction\AspireAWSExample.ToUpperLambdaFunction.csproj", "{F85C394F-2D0F-4834-9331-9AFD466EEA67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{50F1617D-C9AC-4C0E-AB24-5DCE6C18BBFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireAWSExample.ToUpperLambdaFunction.Tests", "AspireAWSExample.ToUpperLambdaFunction\test\AspireAWSExample.ToUpperLambdaFunction.Tests\AspireAWSExample.ToUpperLambdaFunction.Tests.csproj", "{152BDEC3-1A73-41CA-8E9A-2A328F048C64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AspireAWSExample.WebDefaultRouteLambdaFunction", "AspireAWSExample.WebDefaultRouteLambdaFunction", "{91F62D4A-D539-4F3F-AF8E-9A6A88BFD8CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{677CB3EB-8497-43C2-A848-8C64BF8D9057}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireAWSExample.WebDefaultRouteLambdaFunction", "AspireAWSExample.WebDefaultRouteLambdaFunction\src\AspireAWSExample.WebDefaultRouteLambdaFunction\AspireAWSExample.WebDefaultRouteLambdaFunction.csproj", "{3FA8630E-491A-4E80-B28E-AB46654A39DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E89BF87D-9F61-420A-A504-F8E1A8AAF960}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireAWSExample.WebDefaultRouteLambdaFunction.Tests", "AspireAWSExample.WebDefaultRouteLambdaFunction\test\AspireAWSExample.WebDefaultRouteLambdaFunction.Tests\AspireAWSExample.WebDefaultRouteLambdaFunction.Tests.csproj", "{59D66F21-BEA9-4E17-AC37-F75526221036}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F7F5818-12F1-4AA4-9394-B79883AA3CC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F7F5818-12F1-4AA4-9394-B79883AA3CC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F7F5818-12F1-4AA4-9394-B79883AA3CC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F7F5818-12F1-4AA4-9394-B79883AA3CC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F85C394F-2D0F-4834-9331-9AFD466EEA67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F85C394F-2D0F-4834-9331-9AFD466EEA67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F85C394F-2D0F-4834-9331-9AFD466EEA67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F85C394F-2D0F-4834-9331-9AFD466EEA67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{152BDEC3-1A73-41CA-8E9A-2A328F048C64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{152BDEC3-1A73-41CA-8E9A-2A328F048C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{152BDEC3-1A73-41CA-8E9A-2A328F048C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{152BDEC3-1A73-41CA-8E9A-2A328F048C64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FA8630E-491A-4E80-B28E-AB46654A39DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FA8630E-491A-4E80-B28E-AB46654A39DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FA8630E-491A-4E80-B28E-AB46654A39DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FA8630E-491A-4E80-B28E-AB46654A39DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59D66F21-BEA9-4E17-AC37-F75526221036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59D66F21-BEA9-4E17-AC37-F75526221036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59D66F21-BEA9-4E17-AC37-F75526221036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59D66F21-BEA9-4E17-AC37-F75526221036}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{677AD883-4173-4C84-98BF-936E84570318} = {C871BBF7-F4BB-411A-8545-73A5A547D2C0}
+		{F85C394F-2D0F-4834-9331-9AFD466EEA67} = {677AD883-4173-4C84-98BF-936E84570318}
+		{50F1617D-C9AC-4C0E-AB24-5DCE6C18BBFA} = {C871BBF7-F4BB-411A-8545-73A5A547D2C0}
+		{152BDEC3-1A73-41CA-8E9A-2A328F048C64} = {50F1617D-C9AC-4C0E-AB24-5DCE6C18BBFA}
+		{677CB3EB-8497-43C2-A848-8C64BF8D9057} = {91F62D4A-D539-4F3F-AF8E-9A6A88BFD8CE}
+		{3FA8630E-491A-4E80-B28E-AB46654A39DF} = {677CB3EB-8497-43C2-A848-8C64BF8D9057}
+		{E89BF87D-9F61-420A-A504-F8E1A8AAF960} = {91F62D4A-D539-4F3F-AF8E-9A6A88BFD8CE}
+		{59D66F21-BEA9-4E17-AC37-F75526221036} = {E89BF87D-9F61-420A-A504-F8E1A8AAF960}
+	EndGlobalSection
+EndGlobal

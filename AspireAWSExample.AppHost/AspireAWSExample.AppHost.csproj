@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Sdk Name="Aspire.AppHost.Sdk" Version="9.1.0" />
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsAspireHost>true</IsAspireHost>
+    <UserSecretsId>6377744e-8e91-49b9-bafe-254610ae5038</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="9.1.0" />
+    <PackageReference Include="Aspire.Hosting.AWS" Version="9.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AspireAWSExample.ToUpperLambdaFunction\src\AspireAWSExample.ToUpperLambdaFunction\AspireAWSExample.ToUpperLambdaFunction.csproj" />
+    <ProjectReference Include="..\AspireAWSExample.WebDefaultRouteLambdaFunction\src\AspireAWSExample.WebDefaultRouteLambdaFunction\AspireAWSExample.WebDefaultRouteLambdaFunction.csproj" />
+  </ItemGroup>
+  
+</Project>
